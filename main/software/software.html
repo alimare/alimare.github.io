@@ -2,14 +2,12 @@
 <html>
 	<head>
 		<title>Alimar Entertainment</title>
-		<?php
-			include '../../main/includes.php';
-		?>		
+		<link rel="stylesheet" type="text/css" href="/content/css/main.css" />
+		<script type="text/javascript" src="/content/js/jquery-min.js"></script>		
 	</head>
 	<body>
-		<?php
-			include '../../main/header.php';
-		?>		
+		<div id="header">		
+		</div>		
 		
 		<div style="height: 100px;">&nbsp;</div>
 		<div style="padding-left: 40px;"><a href="../../" style="background-color: rgb(35, 45, 56); opacity: .8;">Home</a><br></div>
@@ -119,9 +117,13 @@
 		
 		
 		
-		<?php
-			include '../../main/footer.php';
-		?>
+		<div id="footer">		
+		</div>			
+
+		<script type="text/javascript">
+			$('#header').load('/header.php');
+			$('#footer').load('/footer.php');
+		</script>	
 	</body>	
 </html>
 
