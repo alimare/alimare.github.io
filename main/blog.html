@@ -6,16 +6,15 @@
 		
 		<script type="text/javascript" src="/content/js/ext411a/ext-all-debug.js"></script>
 		
-		<?php
-			include '../main/includes.php';
-		?>
+
+		<link rel="stylesheet" type="text/css" href="/content/css/main.css" />
+		<script type="text/javascript" src="/content/js/jquery-min.js"></script>	
  
 	</head>
 	<body>
 		<div id="headerId" style="display: none; visibility: false;">
-		<?php
-			include '../main/header.php';
-		?>		
+		<div id="header">		
+		</div>		
 			<div style="background-color: rgb(35, 45, 56); padding-left: 20px;padding-top: 75px;"><a href="../">Home</a> | <a href="javascript:void(0);" onclick="changeBlog('http://entertainmentandme.blogspot.com/');">Entertainment and Me</a> | <a href="javascript:void(0);" onclick="changeBlog('http://poundingkeysandminds.blogspot.com/');">Pounding Keys and Minds</a> | <a href="javascript:void(0);" onclick="changeBlog('http://amortalsjourney.blogspot.com/');">A Mortals Journey</a><br>
 		</div>
 		<!--
@@ -57,6 +56,14 @@
 			}
 			
 		</script>
+		
+		<div id="footer">		
+		</div>			
+
+		<script type="text/javascript">
+			$('#header').load('main/header.php');
+			$('#footer').load('main/footer.php');
+		</script>		
 		
 	</body>	
 </html>
