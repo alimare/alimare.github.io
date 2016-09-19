@@ -1,0 +1,128 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Alimar Entertainment</title>
+		<?php
+			include '../../main/includes.php';
+		?>		
+	</head>
+	<body>
+		<?php
+			include '../../main/header.php';
+		?>		
+		
+		<div style="height: 100px;">&nbsp;</div>
+		<div style="padding-left: 40px;"><a href="../../" style="background-color: rgb(35, 45, 56); opacity: .8;">Home</a><br></div>
+		<div class="mainContents">
+			
+			
+			<table>
+				<tr>
+					<td align="center">
+						<img src="/content/images/xav1.gif" />
+					</td>
+					<td class="infoSection">
+						<div class="sectionTitle">
+							Xavieria (Classic Version)							
+						</div>
+						<div >												
+							The original text-based game that started it all.  
+							Join one of three guilds (Magic, Thief, or Knight) and master your skills to defeat the Xavs.  There are many little twists and challenges as you work through 12 levels of fantastic creatures to reach the chilling conclusion.
+							<br><br>
+							<b>Requirements:</b><br>
+							<br>
+							DosBox may be required for 64-bit windows. (16-bit program)<br>
+							386+<br>
+							VGA<br>
+							<br>
+							<b>Install:</b>
+							<br>
+							unzip in a new directory and type 'x' at the command prompt
+							<br><br>							
+							Released: 11/01/1995 <br>
+							<a href="/content/downloads/xav.zip">Download</a>
+						</div>						
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<hr>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<img src="/content/images/scum.jpg" />
+					</td>
+					<td class="infoSection">
+						<div class="sectionTitle">
+							Scum							
+						</div>
+						<div >												
+							Scum is a card game where the object of the game is to get rid of all of your cards. The first person to get rid of all of their cards becomes King.
+							<br><br>
+							The next player becomes Vice, the last player becomes Scum, and the second-to-last person to go out becomes Film.The status of each player makes a difference. The King trades his two lowest cards for Scum's two highest cards. The Vice and Film do the same thing except that they trade only one card. The game continues and on each round the status can change.
+							<br><br>
+							
+							<b>Rules of the Game:</b>
+							Each player must play a card higher than the card last played. If there were no cards last played, than the player can play any card they want. If a player can't or doesn't want to play, they can pass. Each player can pass or play more than once per round. A round ends when no player can or will play. Players may put down more than one card, but the cards have to be the same number. When such cards have been played, then the next player must put down a combination that is higher. Aces are greater than any face card and other cards go in order. Jokers are wild. That means that they can win any combo or single card and they only need to be played solo (one Joker).
+							<br><br>
+							<i>NOTE:</i>
+							The computer randomly picks a player to start. Set up the amount and names of players. Defaults are given at the start.
+							<br><br>
+							<b>Defaults:</b><br>
+							- 4 players
+							- One deck (54 cards). It is recommended that two decks be used when there are more than 4 players. When it's the human's turn to select the cards, left click on the card(s) you would like to play.
+							- When you have selected the card(s), click the play button. If you can't play, click the pass button.
+							<br><br>
+							<b>Current Version:</b> 1.2.4
+							<br><br>
+							<b>Requires:</b> Windows 98+
+							<br><br>
+							Install: unzip and run setup.exe
+							<br><br>							
+							<b>Released:</b> 09/01/2002 <br>
+							<a href="/content/downloads/SCUM.ZIP">Download</a>
+						</div>						
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<hr>
+					</td>
+				</tr>				
+				<tr>
+					<td align="center">
+						<img src="/content/images/pwscreenshot.jpg" />
+					</td>
+					<td class="infoSection">
+						<div class="sectionTitle">
+							Powerwheel Gadget
+						</div>
+						<div>	
+							The Powerwheel Gadget is a Windows Vista/7 Side-Bar Gadget that displays CPU and Memory information.  It support upto 8 CPUs (Visible).  Also, it feature the unique power-wheel.  The more the CPU power is used the faster the wheel moves.  See how much power you can use in a session.
+							<br><br>
+							<b>Install:</b><br>
+							unzip and run setup.exe
+							or 
+							Exact the SystemInfo.gadget to
+							C:\Users\(username)\AppData\Local\Microsoft\Windows Sidebar\Gadgets\
+							<br><br>							
+							Released: 02/01/2009 <br>		
+							<a href="/content/downloads/SystemInfo.gadget">Download</a>
+						</div>						
+					</td>
+				</tr>				
+			</table>
+
+
+		</div>		
+		
+		
+		
+		<?php
+			include '../../main/footer.php';
+		?>
+	</body>	
+</html>
+
+	
