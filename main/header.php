@@ -19,7 +19,7 @@
 					Media
 				</td>					
 				-->
-				<td id="menuBlogs" class="main-menu-item" align="center"  onclick="window.location.href = '/main/blog.php'" onmouseover="hightlightMenu('#menuBlogs');" onmouseout="normalMenu('#menuBlogs');">
+				<td id="menuBlogs" class="main-menu-item" align="center"  onclick="window.location.href = '/main/blog.html'" onmouseover="hightlightMenu('#menuBlogs');" onmouseout="normalMenu('#menuBlogs');">
 					Blogs
 				</td>	
 				<!--
